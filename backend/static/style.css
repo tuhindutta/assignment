@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(../static/img/bg.jpg); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header nav {
+    display: flex;
+    position: absolute;
+    left: 8px;
+    margin: 8px;
+}
+
+.header nav a {
+    border: 2px solid #695656;
+    border-radius: 3px;
+    background-color: #2d7e82;
+    font-size: 18px;
+    color: rgb(194 243 7);
+    text-decoration: none;
+    padding: 0 34px;
+    margin: 10px;
+    text-align: center;
+    width: 74px;
+    font-weight: bold;
+}
+
+.header nav a:hover{
+    background-color: white;
+    color: grey;
+}
+
+.header nav a:active{
+    background-color: wheat;
+    color: purple;
+    text-decoration: underline;
+}
+.btn a{
+    position: absolute;
+    color: red;
+    border: 2px solid #695656;
+    border-radius: 3px;
+    background-color: #e7efac;
+    right: 30px;
+    margin: -5px;
+    font-size: 16px;
+}

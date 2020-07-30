@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+body
+    <h2>Contact Details:</h2>
+    div(class='contset')
+        |Mob No.          : +91 8821822717 , +91 7828285389
+        |Email ID         : tuhindutta428@gmail.com<br>
+        |Whatsapp no.     : 8821822717<br>
+        |Linked In Profile: linkedin.com/in/t-k-dutta<br>
+        |Twitter handle   : @tk_dutta<br>
+        |Permanent Address: 171 S.N. Bose Road, B-Zone, Durgapur, Pin-713205, Dist.-Bardhman,
+        |                   West Bengal
+        
+    <h2>Please the following details if you wish:<h2>
+    div(class='form')
+         form(action='/contact', method='POST')
+            p
+                | Name: 
+                input(type='text', name='name', value='')
+                | Contact info: 
+                input(type='text', name='continfo', value='')
+                | Message: 
+                textarea(id="theTextarea", name='message')
+                button
+                    |Submit
+</html>
